@@ -1,0 +1,47 @@
+.sidebar{
+    position: fixed;
+    margin-top: 70px;
+    width: 80px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    vertical-align: top;
+    flex-direction: column;
+    background-color: #fff;
+    z-index: 200px;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: rgb(192, 192, 192);
+    z-index: 1000;
+}
+
+
+.name-btn{
+   font-family: 'Roboto';
+   font-weight: 500;
+   font-size: 12px;
+}
+
+
+
+
+.home-btn,.explore-btn,.subscriptions-btn,.originals-btn,.youtube-apps-btn,.libary-btn{
+    flex-direction: column;
+    display: flex;
+    height: 74px;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.home-icon,.explore-icon,.subscriptions-icon,.originals-icon,.youtube-music-icon,.libary-icon{
+    width: 34px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
